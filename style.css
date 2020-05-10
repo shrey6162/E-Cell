@@ -3,7 +3,7 @@
 	padding: 0;
 }
 /*mobile view styling*/
-@media only screen and (min-width: 360px){
+@media only screen and (min-width: 280px){
 /* CSS property for header section */ 
 			.header { 
 			background-color: #065891; 
@@ -316,15 +316,15 @@
 				.team{
 					font-size: 12px;
 					text-align: center;
-					padding-left: 45px;
-					padding-right: 45px;
+					padding-left: 32px;
+					padding-right: 32px;
 
 				}
 				.team1{
 					font-size: 12px;
 					text-align: center;
-					padding-left: 45px;
-					padding-right: 45px;
+					padding-left: 32px;
+					padding-right: 32px;
 
 				}
 				.team1 img{
