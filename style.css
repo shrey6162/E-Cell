@@ -3,7 +3,7 @@
 	padding: 0;
 }
 /*mobile view styling*/
-@media only screen and (min-width: 280px){
+@media only screen and (min-width: 320px){
 /* CSS property for header section */ 
 			.header { 
 			background-color: #065891; 
@@ -313,18 +313,26 @@
 					width: 100px;
 
 				}
+				.team table{
+					border-collapse: collapse;
+  					border-spacing: 0;
+  					margin: 0;
+ 					padding: 0;
+  					width: 100%;
+  					table-layout: fixed;
+				}
 				.team{
 					font-size: 12px;
 					text-align: center;
-					padding-left: 32px;
-					padding-right: 32px;
+					/*padding-left: 45px;
+					padding-right: 45px;*/
 
 				}
 				.team1{
 					font-size: 12px;
 					text-align: center;
-					padding-left: 32px;
-					padding-right: 32px;
+					padding-left: 45px;
+					padding-right: 45px;
 
 				}
 				.team1 img{
@@ -643,11 +651,19 @@
 					height: 150px;
 
 				}
+				.team table{
+					border-collapse: collapse;
+  					border-spacing: 0;
+  					margin: 0;
+ 					padding: 0;
+  					width: 100%;
+  					table-layout: fixed;
+				}
 				.team{
 					font-size: 12px;
 					text-align: center;
-					padding-left: 27px;
-					padding-right: 45px;
+					/*padding-left: 27px;
+					padding-right: 45px;*/
 
 				}
 				.team1{
@@ -983,11 +999,19 @@
 					height: 200px;
 
 				}
+				.team table{
+					border-collapse: collapse;
+  					border-spacing: 0;
+  					margin: 0;
+ 					padding: 0;
+  					width: 100%;
+  					table-layout: fixed;
+				}
 				.team{
 					font-size: 20px;
 					text-align: center;
-					padding-left: 240px;
-					padding-right: 45px;
+					/*padding-left: 240px;
+					padding-right: 45px;*/
 
 				}
 				.team1{
