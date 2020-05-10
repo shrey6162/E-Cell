@@ -1,0 +1,1008 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/*mobile view styling*/
+@media only screen and (min-width: 360px){
+/* CSS property for header section */ 
+			.header { 
+			background-color: #065891; 
+			padding-top: 1px;
+			padding-bottom: 1px;
+			text-align: center; 
+			width: 100%;
+			font-family:Arial, Verdana, Georgia, Tahoma;
+			font-size: 14px;
+			color: white;
+			/*display: none; */
+			}
+			.header img{
+				width: 10%;
+				height: 10%;
+			} 
+
+			/* CSS property for nevigation menu */ 
+			.nav_menu { 
+			overflow: hidden; 
+			background-color: #065891;
+			border-color:#959595; 
+			} 
+			.nav_menu a { 
+			float: left; 
+			/*display: none; */
+			color: white; 
+			text-align: center; 
+			padding-top: 2px;
+			padding-right: 4px;
+			padding-bottom: 2px;
+			padding-left: 5px;
+			font-family:Arial, Verdana, Georgia, Tahoma;
+			font-size: 9px;
+			text-decoration: none; 
+			} 
+			.nav_menu a:hover { 
+			background-color: #56A5FC; 
+			text-decoration: none; 
+			} 
+			.logo{
+				width: 100%;
+
+			}
+			.body {
+			text-align: center;
+			font-family: Impact, Andale Mono, monospaces;				
+			color: black;
+			text-decoration: none;
+			padding-top: 3px;
+			width: 100%;
+			font-size:20px;
+			}
+			.body1{
+				text-align: center;
+			font-family: Impact, Gill Sans, sans-serif;				
+			color: black;
+			text-decoration: none;
+			padding-bottom: 3px;
+			width: 100%;
+			font-size: 16px;
+			}
+			.content{
+			text-align: center;
+			color: black;
+			font-family: "Trebuchet MS", Helvetica, sans-serif;
+			text-decoration: none;
+			padding-right: 3px;
+			padding-left: 3px;
+			padding-bottom: 3px;
+			line-height: 24px;
+			width: 100%;
+			font-size: 15px;
+			}
+			/*slider*/
+			* {box-sizing: border-box}
+			body {font-family: Verdana, sans-serif; margin:0}
+			.mySlides {display: none}
+			img {vertical-align: middle;}
+
+			/* Slideshow container */
+			.slideshow-container {
+			max-width: 1100px;
+			max-height: 600px;
+			position: relative;
+			border-color: black;
+			margin: auto;
+			width: 100%;
+			}
+
+			/* Next & previous buttons */
+			.prev, .next {
+			cursor: pointer;
+			position: absolute;
+			top: 50%;
+			width: auto;
+			padding: 16px;
+			margin-top: -22px;
+			color: white;
+			font-weight: bold;
+			font-size: 18px;
+			transition: 0.6s ease;
+			border-radius: 0 3px 3px 0;
+			user-select: none;
+			}
+
+			/* Position the "next button" to the right */
+			.next {
+			right: 0;
+			border-radius: 3px 0 0 3px;
+			}
+
+			/* On hover, add a black background color with a little bit see-through */
+			.prev:hover, .next:hover {
+			background-color: rgba(0,0,0,0.8);
+			}
+
+			/* Caption text */
+			.text {
+			color: #f2f2f2;
+			font-size: 15px;
+			padding: 8px 12px;
+			position: absolute;
+			bottom: 8px;
+			width: 100%;
+			text-align: center;
+			}
+
+			/* Number text (1/3 etc) */
+			.numbertext {
+			color: #f2f2f2;
+			font-size: 12px;
+			padding: 8px 12px;
+			position: absolute;
+			top: 0;
+			}
+
+			/* The dots/bullets/indicators */
+			.dot {
+			cursor: pointer;
+			height: 15px;
+			width: 15px;
+			margin: 0 2px;
+			background-color: #bbb;
+			border-radius: 50%;
+			display: inline-block;
+			transition: background-color 0.6s ease;
+			}
+
+			.active, .dot:hover {
+			background-color: #717171;
+			}
+
+			/* Fading animation */
+			.fade {
+			-webkit-animation-name: fade;
+			-webkit-animation-duration : 1.5s;
+			animation-name: fade;
+			animation-duration: 1.5s;
+			}
+
+			@-webkit-keyframes fade {
+			from {opacity: .4} 
+			to {opacity: 1}
+			}
+
+			@keyframes fade {
+			from {opacity: .4} 
+			to {opacity: 1}
+			}
+
+			/* On smaller screens, decrease text size */
+			@media only screen and (max-width: 300px) {
+			.prev, .next,.text {font-size: 11px}
+			}
+			.base1{
+				text-align: left;
+				color: black;
+				font-family: "Trebuchet MS", Helvetica, sans-serif;
+				padding-left: 40px;
+				padding-right: 40px;
+				width: 100%;
+				font-size: 30px;
+			}
+			.base2{
+				text-align: left;
+				color: black;
+				font-family: "Trebuchet MS", Helvetica, sans-serif;
+				padding-left: 40px;
+				padding-right: 40px;
+				width: 100%;
+				font-size: 25px;
+			}
+			.base3{
+				text-align: left;
+				color: black;
+				font-family: "Trebuchet MS", Helvetica, sans-serif;
+				padding-left: 40px;
+				padding-right: 40px;
+				width: 100%;
+				font-size: 25px;
+			}
+			.basecontent{
+			text-align: left;
+			color: black;
+			font-family: "Trebuchet MS", Helvetica, sans-serif;
+			text-decoration: none;
+			padding-left: 40px;
+			padding-right: 40px;
+			width: 100%;
+			font-size: 15px;
+			}
+			.basecontent1{
+			text-align: left;
+			color: black;
+			font-family: "Trebuchet MS", Helvetica, sans-serif;
+			text-decoration: none;
+			padding-left: 40px;
+			padding-right: 40px;
+			width: 100%;
+			font-size: 15px;
+			}
+			.footer{
+			text-align: center;
+			background-color: #065891;
+			border-color:#959595;
+			padding-top: 20px;
+			padding-right: 10px;
+			padding-bottom: 20px;
+			padding-left: 10px; 
+			font-family: "Trebuchet MS", Helvetica, sans-serif;
+			text-decoration: none;
+			/*position: fixed;*/
+			left: 0;
+			bottom: 0;
+			width: 100%;
+			/*display: none;*/
+			}
+			.fa {
+			padding: 20px;
+			font-size: 30px;
+			width: 100px;
+			text-align: center;
+			text-decoration: none;
+			margin: 5px 5px;
+
+			}
+
+			.fa:hover {
+			opacity: 0.7;
+			}
+
+			.fa-facebook {
+			background: #3B5998;
+			color: white;
+			}
+
+			.fa-linkedin {
+			background: #007bb5;
+			color: white;
+			}
+			.fa-instagram {
+			background: #125688;
+			color: white;
+			}
+			.help{
+					text-align: center;
+					color: black;
+					font-size: 30px;
+					font-family: "Trebuchet MS", Helvetica, sans-serif;
+					text-decoration: none;
+				}
+			.help p{
+				text-align: center;
+					color: black;
+					font-size: 15px;
+					font-family: "Trebuchet MS", Helvetica, sans-serif;
+					text-decoration: none;
+			}
+				.form{
+
+					font-size: 15px;
+				}
+				.contact{
+					font-size: 18px;
+
+				}
+				.contact p{
+					font-size: 12px;
+				}
+				.contact1{
+					font-size: 10px;
+					color: blue;
+					text-align: center;
+				}
+				.contact2{
+					font-size: 10px;
+					color: red;
+					text-align: center;
+				}
+				.tile{
+					font-size: 25px;
+					text-align: center;
+					font-family: "Trebuchet MS", Helvetica, sans-serif;
+				}
+				.team img{
+					width: 100px;
+
+				}
+				.team{
+					font-size: 12px;
+					text-align: center;
+					padding-left: 45px;
+					padding-right: 45px;
+
+				}
+				.team1{
+					font-size: 12px;
+					text-align: center;
+					padding-left: 45px;
+					padding-right: 45px;
+
+				}
+				.team1 img{
+					width: 100px;
+				}
+			}
+
+/*tablet view styling*/
+		@media only screen and (min-width: 768px){
+				.header { 
+			background-color: #065891; 
+			padding-top: 1px;
+			padding-bottom: 1px;
+			text-align: left; 
+			width: 100%;
+			font-family:Arial, Verdana, Georgia, Tahoma;
+			font-size: 20px;
+			color: white;
+			/*display: none; */
+			} 
+			.header img{
+				width: 10%;
+				height: 10%;
+			}
+
+			/* CSS property for nevigation menu */ 
+			.nav_menu { 
+			overflow: hidden; 
+			background-color: #065891;
+			border-color:#959595; 
+			} 
+			.nav_menu a { 
+			float: left; 
+			/*display: none; */
+			color: white; 
+			text-align: center; 
+			padding-top: 3px;
+			padding-right: 15px;
+			padding-bottom: 3px;
+			padding-left: 15px;
+			font-family:Arial, Verdana, Georgia, Tahoma;
+			font-size: 16px;
+			text-decoration: none; 
+			} 
+			.nav_menu a:hover { 
+			background-color: #56A5FC; 
+			text-decoration: none; 
+			} 
+			.logo{
+				width: 95%;
+
+			}
+			.body {
+			text-align: center;
+			font-family: Impact, Andale Mono, monospaces;				
+			color: black;
+			text-decoration: none;
+			padding-top: 3px;
+			width: 100%;
+			font-size:30px;
+			}
+			.body1{
+				text-align: center;
+			font-family: Impact, Gill Sans, sans-serif;				
+			color: black;
+			text-decoration: none;
+			padding-bottom: 3px;
+			width: 100%;
+			font-size: 20px;
+			}
+			.content{
+			text-align: center;
+			color: black;
+			font-family: "Trebuchet MS", Helvetica, sans-serif;
+			text-decoration: none;
+			padding-right: 5px;
+			padding-left: 5px;
+			padding-bottom: 3px;
+			line-height: 24px;
+			width: 100%;
+			font-size: 17px;
+			}
+			/*slider*/
+			* {box-sizing: border-box}
+			body {font-family: Verdana, sans-serif; margin:0}
+			.mySlides {display: none}
+			img {vertical-align: middle;}
+
+			/* Slideshow container */
+			.slideshow-container {
+			max-width: 1100px;
+			max-height: 600px;
+			position: relative;
+			border-color: black;
+			margin: auto;
+			width: 100%;
+			}
+
+			/* Next & previous buttons */
+			.prev, .next {
+			cursor: pointer;
+			position: absolute;
+			top: 50%;
+			width: auto;
+			padding: 16px;
+			margin-top: -22px;
+			color: white;
+			font-weight: bold;
+			font-size: 18px;
+			transition: 0.6s ease;
+			border-radius: 0 3px 3px 0;
+			user-select: none;
+			}
+
+			/* Position the "next button" to the right */
+			.next {
+			right: 0;
+			border-radius: 3px 0 0 3px;
+			}
+
+			/* On hover, add a black background color with a little bit see-through */
+			.prev:hover, .next:hover {
+			background-color: rgba(0,0,0,0.8);
+			}
+
+			/* Caption text */
+			.text {
+			color: #f2f2f2;
+			font-size: 15px;
+			padding: 8px 12px;
+			position: absolute;
+			bottom: 8px;
+			width: 100%;
+			text-align: center;
+			}
+
+			/* Number text (1/3 etc) */
+			.numbertext {
+			color: #f2f2f2;
+			font-size: 12px;
+			padding: 8px 12px;
+			position: absolute;
+			top: 0;
+			}
+
+			/* The dots/bullets/indicators */
+			.dot {
+			cursor: pointer;
+			height: 15px;
+			width: 15px;
+			margin: 0 2px;
+			background-color: #bbb;
+			border-radius: 50%;
+			display: inline-block;
+			transition: background-color 0.6s ease;
+			}
+
+			.active, .dot:hover {
+			background-color: #717171;
+			}
+
+			/* Fading animation */
+			.fade {
+			-webkit-animation-name: fade;
+			-webkit-animation-duration : 1.5s;
+			animation-name: fade;
+			animation-duration: 1.5s;
+			}
+
+			@-webkit-keyframes fade {
+			from {opacity: .4} 
+			to {opacity: 1}
+			}
+
+			@keyframes fade {
+			from {opacity: .4} 
+			to {opacity: 1}
+			}
+
+			/* On smaller screens, decrease text size */
+			@media only screen and (max-width: 300px) {
+			.prev, .next,.text {font-size: 11px}
+			}
+			.base1{
+				text-align: left;
+				color: black;
+				font-family: "Trebuchet MS", Helvetica, sans-serif;
+				padding-left: 40px;
+				padding-right: 40px;
+				width: 100%;
+				font-size: 30px;
+			}
+			.base2{
+				text-align: left;
+				color: black;
+				font-family: "Trebuchet MS", Helvetica, sans-serif;
+				padding-left: 40px;
+				padding-right: 40px;
+				width: 100%;
+				font-size: 25px;
+			}
+			.base3{
+				text-align: left;
+				color: black;
+				font-family: "Trebuchet MS", Helvetica, sans-serif;
+				padding-left: 40px;
+				padding-right: 40px;
+				width: 100%;
+				font-size: 25px;
+			}
+			.basecontent{
+			text-align: left;
+			color: black;
+			font-family: "Trebuchet MS", Helvetica, sans-serif;
+			text-decoration: none;
+			padding-left: 40px;
+			padding-right: 40px;
+			width: 100%;
+			font-size: 15px;
+			}
+			.basecontent1{
+			text-align: left;
+			color: black;
+			font-family: "Trebuchet MS", Helvetica, sans-serif;
+			text-decoration: none;
+			padding-left: 40px;
+			padding-right: 40px;
+			width: 100%;
+			font-size: 15px;
+			}
+			.footer{
+			text-align: center;
+			background-color: #065891;
+			border-color:#959595;
+			padding-top: 20px;
+			padding-right: 10px;
+			padding-bottom: 20px;
+			padding-left: 10px; 
+			font-family: "Trebuchet MS", Helvetica, sans-serif;
+			text-decoration: none;
+			/*position: fixed;*/
+			left: 0;
+			bottom: 0;
+			width: 100%;
+			/*display: none;*/
+			}
+			.fa {
+			padding: 20px;
+			font-size: 30px;
+			width: 100px;
+			text-align: center;
+			text-decoration: none;
+			margin: 5px 5px;
+
+			}
+
+			.fa:hover {
+			opacity: 0.7;
+			}
+
+			.fa-facebook {
+			background: #3B5998;
+			color: white;
+			}
+
+			.fa-linkedin {
+			background: #007bb5;
+			color: white;
+			}
+			.fa-instagram {
+			background: #125688;
+			color: white;
+			}
+			.help{
+					text-align: center;
+					color: black;
+					font-size: 30px;
+					font-family: "Trebuchet MS", Helvetica, sans-serif;
+					text-decoration: none;
+				}
+			.help p{
+				text-align: center;
+					color: black;
+					font-size: 15px;
+					font-family: "Trebuchet MS", Helvetica, sans-serif;
+					text-decoration: none;
+			}
+				.form{
+
+					font-size: 15px;
+				}
+				.contact{
+					font-size: 18px;
+
+				}
+				.contact p{
+					font-size: 12px;
+				}
+				.contact1{
+					font-size: 10px;
+					color: blue;
+					text-align: center;
+				}
+				.contact2{
+					font-size: 10px;
+					color: red;
+					text-align: center;
+				}
+				.tile{
+					font-size: 25px;
+					text-align: center;
+					font-family: "Trebuchet MS", Helvetica, sans-serif;
+				}
+				.team img{
+					width: 150px;
+					height: 150px;
+
+				}
+				.team{
+					font-size: 12px;
+					text-align: center;
+					padding-left: 27px;
+					padding-right: 45px;
+
+				}
+				.team1{
+					font-size: 12px;
+					text-align: center;
+					padding-left: 45px;
+					padding-right: 45px;
+
+				}
+				.team1 img{
+					width: 150px;
+					height: 150px;
+				}
+				.abc{
+					position: center;
+					padding-left: 200px;
+				}
+		}
+
+
+/*desktop view styling*/
+		@media only screen and (min-width: 1080px){
+				.header { 
+			background-color: #065891; 
+			padding-top: 1px;
+			padding-bottom: 1px;
+			text-align: left; 
+			width: 100%;
+			font-family:Arial, Verdana, Georgia, Tahoma;
+			font-size: 35px;
+			color: white;
+			/*display: none; */
+			} 
+			.header img{
+				width: 7%;
+				height: 7%;
+			}
+
+			/* CSS property for nevigation menu */ 
+			.nav_menu { 
+			overflow: hidden; 
+			background-color: #065891;
+			border-color:#959595; 
+			} 
+			.nav_menu a { 
+			float: left; 
+			/*display: none; */
+			color: white; 
+			text-align: center; 
+			padding-top: 3px;
+			padding-right: 30px;
+			padding-bottom: 3px;
+			padding-left: 30px;
+			font-family:Arial, Verdana, Georgia, Tahoma;
+			font-size: 17px;
+			text-decoration: none; 
+			} 
+			.nav_menu a:hover { 
+			background-color: #56A5FC; 
+			text-decoration: none; 
+			} 
+			.logo{
+				width: 80%;
+				height: 65%;
+				padding-left: 160px;
+
+			}
+			.body {
+			text-align: center;
+			font-family: Impact, Andale Mono, monospaces;				
+			color: black;
+			text-decoration: none;
+			padding-top: 12px;
+			width: 100%;
+			font-size:55px;
+			}
+			.body1{
+				text-align: center;
+			font-family: Impact, Gill Sans, sans-serif;				
+			color: black;
+			text-decoration: none;
+			padding-bottom: 3px;
+			width: 100%;
+			font-size: 40px;
+			}
+			.content{
+			text-align: center;
+			color: black;
+			font-family: "Trebuchet MS", Helvetica, sans-serif;
+			text-decoration: none;
+			padding-top:8px; 
+			padding-bottom:10px;
+			padding-right: 20px;
+			padding-left: 20px;
+			padding-bottom: 30px;
+			line-height: 24px;
+			width: 100%;
+			font-size: 20px;
+			}
+			/*slider*/
+			* {box-sizing: border-box}
+			body {font-family: Verdana, sans-serif; margin:0}
+			.mySlides {display: none}
+			img {vertical-align: middle;}
+
+			/* Slideshow container */
+			.slideshow-container {
+			max-width: 1100px;
+			max-height: 600px;
+			position: relative;
+			border-color: black;
+			margin: auto;
+			width: 100%;
+			}
+
+			/* Next & previous buttons */
+			.prev, .next {
+			cursor: pointer;
+			position: absolute;
+			top: 50%;
+			width: auto;
+			padding: 16px;
+			margin-top: -22px;
+			color: white;
+			font-weight: bold;
+			font-size: 18px;
+			transition: 0.6s ease;
+			border-radius: 0 3px 3px 0;
+			user-select: none;
+			}
+
+			/* Position the "next button" to the right */
+			.next {
+			right: 0;
+			border-radius: 3px 0 0 3px;
+			}
+
+			/* On hover, add a black background color with a little bit see-through */
+			.prev:hover, .next:hover {
+			background-color: rgba(0,0,0,0.8);
+			}
+
+			/* Caption text */
+			.text {
+			color: #f2f2f2;
+			font-size: 15px;
+			padding: 8px 12px;
+			position: absolute;
+			bottom: 8px;
+			width: 100%;
+			text-align: center;
+			}
+
+			/* Number text (1/3 etc) */
+			.numbertext {
+			color: #f2f2f2;
+			font-size: 12px;
+			padding: 8px 12px;
+			position: absolute;
+			top: 0;
+			}
+
+			/* The dots/bullets/indicators */
+			.dot {
+			cursor: pointer;
+			height: 15px;
+			width: 15px;
+			margin: 0 2px;
+			background-color: #bbb;
+			border-radius: 50%;
+			display: inline-block;
+			transition: background-color 0.6s ease;
+			}
+
+			.active, .dot:hover {
+			background-color: #717171;
+			}
+
+			/* Fading animation */
+			.fade {
+			-webkit-animation-name: fade;
+			-webkit-animation-duration : 1.5s;
+			animation-name: fade;
+			animation-duration: 1.5s;
+			}
+
+			@-webkit-keyframes fade {
+			from {opacity: .4} 
+			to {opacity: 1}
+			}
+
+			@keyframes fade {
+			from {opacity: .4} 
+			to {opacity: 1}
+			}
+
+			/* On smaller screens, decrease text size */
+			@media only screen and (max-width: 300px) {
+			.prev, .next,.text {font-size: 11px}
+			}
+			.base1{
+				text-align: left;
+				color: black;
+				font-family: "Trebuchet MS", Helvetica, sans-serif;
+				padding-left: 40px;
+				padding-right: 40px;
+				width: 100%;
+				font-size: 50px;
+			}
+			.base2{
+				text-align: left;
+				color: black;
+				font-family: "Trebuchet MS", Helvetica, sans-serif;
+				padding-left: 40px;
+				padding-right: 40px;
+				width: 100%;
+				font-size: 30px;
+			}
+			.base3{
+				text-align: left;
+				color: black;
+				font-family: "Trebuchet MS", Helvetica, sans-serif;
+				padding-left: 40px;
+				padding-right: 40px;
+				width: 100%;
+				font-size: 30px;
+			}
+			.basecontent{
+			text-align: left;
+			color: black;
+			font-family: "Trebuchet MS", Helvetica, sans-serif;
+			text-decoration: none;
+			padding-left: 40px;
+			padding-right: 40px;
+			width: 100%;
+			font-size: 20px;
+			}
+			.basecontent1{
+			text-align: left;
+			color: black;
+			font-family: "Trebuchet MS", Helvetica, sans-serif;
+			text-decoration: none;
+			padding-left: 40px;
+			padding-right: 40px;
+			width: 100%;
+			font-size: 20px;
+			}
+			.footer{
+			text-align: center;
+			background-color: #065891;
+			border-color:#959595;
+			padding-top: 20px;
+			padding-right: 10px;
+			padding-bottom: 20px;
+			padding-left: 10px; 
+			font-family: "Trebuchet MS", Helvetica, sans-serif;
+			text-decoration: none;
+			/*position: fixed;*/
+			left: 0;
+			bottom: 0;
+			width: 100%;
+			/*display: none;*/
+			}
+			.fa {
+			padding: 20px;
+			font-size: 30px;
+			width: 100px;
+			text-align: center;
+			text-decoration: none;
+			margin: 5px 5px;
+
+			}
+
+			.fa:hover {
+			opacity: 0.7;
+			}
+
+			.fa-facebook {
+			background: #3B5998;
+			color: white;
+			}
+
+			.fa-linkedin {
+			background: #007bb5;
+			color: white;
+			}
+			.fa-instagram {
+			background: #125688;
+			color: white;
+			}
+			.help{
+					text-align: center;
+					color: black;
+					font-size: 50px;
+					font-family: "Trebuchet MS", Helvetica, sans-serif;
+					text-decoration: none;
+				}
+			.help p{
+				text-align: center;
+					color: black;
+					font-size: 30px;
+					font-family: "Trebuchet MS", Helvetica, sans-serif;
+					text-decoration: none;
+			}
+				.form{
+
+					font-size: 30px;
+				}
+				.contact{
+					font-size: 35px;
+
+				}
+				.contact p{
+					font-size: 20px;
+				}
+				.contact1{
+					font-size: 15px;
+					color: blue;
+					text-align: center;
+				}
+				.contact2{
+					font-size: 15px;
+					color: red;
+					text-align: center;
+				}
+				.tile{
+					font-size: 30px;
+					text-align: center;
+					font-family: "Trebuchet MS", Helvetica, sans-serif;
+				}
+				.team img{
+					width: 200px;
+					height: 200px;
+
+				}
+				.team{
+					font-size: 20px;
+					text-align: center;
+					padding-left: 240px;
+					padding-right: 45px;
+
+				}
+				.team1{
+					font-size: 20px;
+					text-align: center;
+					padding-left: 45px;
+					padding-right: 45px;
+
+				}
+				.team1 img{
+					width: 200px;
+					height: 200px;
+				}
+				.abc{
+					position: center;
+					padding-left: 200px;
+				}
+		}
